@@ -3,11 +3,26 @@
  * Plugin Name: Cypress Creative Standards
  * Plugin URI: https://cypr.es
  * Description: WordPress Website standard settings for Cypress Creative customers
- * Version: 1.001
+ * Version: 1.002
  * Text Domain: cc-standards
  * Author: Cypress Creative
  * Author URI: https://cypr.es
  */
+
+/**
+*Plugin update settings
+**/
+if( ! class_exists( 'cc_standards_Updater' ) ){
+	include_once(  'updater.php' );
+}
+
+$updater = new cc_standards_Updater( __FILE__ );
+$updater->set_username( 'chrisku');
+$updater->set_repository( 'cc-standards' );
+/*
+	$updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
+*/
+$updater->initialize();
 
 /**
  * Auto-Update Settings
