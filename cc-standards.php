@@ -3,7 +3,7 @@
  * Plugin Name: Cypress Creative Standards
  * Plugin URI: https://cypr.es
  * Description: WordPress Website standard settings for Cypress Creative customers
- * Version: 1.003
+ * Version: 1.004
  * Text Domain: cc-standards
  * Author: Cypress Creative
  * Author URI: https://cypr.es
