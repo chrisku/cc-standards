@@ -9,7 +9,7 @@
  * Author URI: https://cypr.es
  */
 
-require_once('inc/updater.php')
+require_once('inc/updater.php');
 
 /**
  * Auto-Update Settings
