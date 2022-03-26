@@ -47,4 +47,3 @@ add_filter( 'allow_major_auto_core_updates', '__return_true' );
 
 // disable periodic admin email verification prompt
 add_filter( 'admin_email_check_interval', '__return_false' );
->>>>>>> 26cc4ce (First commit)
